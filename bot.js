@@ -20,7 +20,7 @@ var bot = controller.spawn({
 }).startRTM();
 
 controller.hears(['hello','hi'],['direct_message','direct_mention','mention'],function(bot,message) {
-    bot.reply(message,"Hello, I'm Super Soul, you can get a list of options by typing: help");
+    bot.reply(message,"Yo, I'm Super Soul, you can get a list of options by typing: help");
 });
 
 // HELP
